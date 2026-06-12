@@ -182,7 +182,7 @@ const SLIDER_CONFIG = {
   // Core settings
   settings: {
     // Timing settings
-    transitionDuration: 2.5,
+    transitionDuration: 1.2,
     autoSlideSpeed: 5000,
     // Current state
     currentEffect: "glass",
@@ -396,28 +396,28 @@ const PROGRESS_UPDATE_INTERVAL = 50;
 const TRANSITION_DURATION = () => SLIDER_CONFIG.settings.transitionDuration;
 const slides = [
   {
-    title: "Ethereal Glow",
-    media: "https://assets.codepen.io/7558/orange-portrait-001.jpg"
+    title: "Mountain Sunrise",
+    media: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80"
   },
   {
-    title: "Rose Mirage",
-    media: "https://assets.codepen.io/7558/orange-portrait-002.jpg"
+    title: "Ocean Waves",
+    media: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1920&q=80"
   },
   {
-    title: "Velvet Mystique",
-    media: "https://assets.codepen.io/7558/orange-portrait-003.jpg"
+    title: "Northern Lights",
+    media: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1920&q=80"
   },
   {
-    title: "Golden Hour",
-    media: "https://assets.codepen.io/7558/orange-portrait-004.jpg"
+    title: "Desert Dunes",
+    media: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1920&q=80"
   },
   {
-    title: "Midnight Dreams",
-    media: "https://assets.codepen.io/7558/orange-portrait-005.jpg"
+    title: "Forest Path",
+    media: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&q=80"
   },
   {
-    title: "Silver Light",
-    media: "https://assets.codepen.io/7558/orange-portrait-006.jpg"
+    title: "Aurora Sky",
+    media: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?w=1920&q=80"
   }
 ];
 // Touch support variables
@@ -535,7 +535,8 @@ const fragmentShader = `
         
         float maxRadius = length(uResolution) * 0.85;
         // FIX: Start completely off-screen at progress 0
-        float bubbleRadius = progress * maxRadius;
+        float fastProgress = smoothstep(0.0, 0.7, progress);
+        float bubbleRadius = fastProgress * maxRadius;
         vec2 sphereCenter = center * uResolution;
         
         float dist = length(p - sphereCenter);
