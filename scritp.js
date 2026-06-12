@@ -400,16 +400,16 @@ const slides = [
     media: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
   },
   {
-    title: "Neon Waves",
-    media: "https://images.unsplash.com/photo-1550684376-efcbd6e3f031?w=1920&q=80"
+    title: "Liquid Marble",
+    media: "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=1920&q=80"
   },
   {
-    title: "Fluid Motion",
-    media: "https://images.unsplash.com/photo-1567095761054-7a02e69e5571?w=1920&q=80"
+    title: "Gradient Flow",
+    media: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1920&q=80"
   },
   {
-    title: "Prism Light",
-    media: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+    title: "Violet Haze",
+    media: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=1920&q=80"
   },
   {
     title: "Ink Swirl",
