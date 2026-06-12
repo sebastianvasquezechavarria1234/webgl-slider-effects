@@ -396,28 +396,28 @@ const PROGRESS_UPDATE_INTERVAL = 50;
 const TRANSITION_DURATION = () => SLIDER_CONFIG.settings.transitionDuration;
 const slides = [
   {
-    title: "Color Burst",
-    media: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
+    title: "Ethereal Glow",
+    media: "https://assets.codepen.io/7558/orange-portrait-001.jpg"
   },
   {
-    title: "Liquid Marble",
-    media: "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=1920&q=80"
+    title: "Rose Mirage",
+    media: "https://assets.codepen.io/7558/orange-portrait-002.jpg"
   },
   {
-    title: "Gradient Flow",
-    media: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1920&q=80"
+    title: "Velvet Mystique",
+    media: "https://assets.codepen.io/7558/orange-portrait-003.jpg"
   },
   {
-    title: "Violet Haze",
-    media: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=1920&q=80"
+    title: "Golden Hour",
+    media: "https://assets.codepen.io/7558/orange-portrait-004.jpg"
   },
   {
-    title: "Ink Swirl",
-    media: "https://images.unsplash.com/photo-1549490349-8643362247b5?w=1920&q=80"
+    title: "Midnight Dreams",
+    media: "https://assets.codepen.io/7558/orange-portrait-005.jpg"
   },
   {
-    title: "Glass Geometry",
-    media: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=1920&q=80"
+    title: "Silver Light",
+    media: "https://assets.codepen.io/7558/orange-portrait-006.jpg"
   }
 ];
 // Touch support variables
