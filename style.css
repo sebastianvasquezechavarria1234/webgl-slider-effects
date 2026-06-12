@@ -221,3 +221,26 @@ body {
   opacity: 1;
   pointer-events: auto;
 }
+
+.bottom-buttons {
+  position: absolute;
+  bottom: var(--spacing-md);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.5rem;
+  z-index: 3;
+}
+
+.bottom-buttons .btn {
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  font-style: italic;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  transition: color 0.3s ease;
+}
+
+.bottom-buttons .btn:hover {
+  color: var(--color-text);
+}
