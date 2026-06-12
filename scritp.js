@@ -182,7 +182,7 @@ const SLIDER_CONFIG = {
   // Core settings
   settings: {
     // Timing settings
-    transitionDuration: 1.2,
+    transitionDuration: 2.8,
     autoSlideSpeed: 5000,
     // Current state
     currentEffect: "glass",
@@ -396,28 +396,28 @@ const PROGRESS_UPDATE_INTERVAL = 50;
 const TRANSITION_DURATION = () => SLIDER_CONFIG.settings.transitionDuration;
 const slides = [
   {
-    title: "Mountain Sunrise",
-    media: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80"
+    title: "Color Burst",
+    media: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
   },
   {
-    title: "Ocean Waves",
-    media: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1920&q=80"
+    title: "Neon Waves",
+    media: "https://images.unsplash.com/photo-1550684376-efcbd6e3f031?w=1920&q=80"
   },
   {
-    title: "Northern Lights",
-    media: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1920&q=80"
+    title: "Fluid Motion",
+    media: "https://images.unsplash.com/photo-1567095761054-7a02e69e5571?w=1920&q=80"
   },
   {
-    title: "Desert Dunes",
-    media: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1920&q=80"
+    title: "Prism Light",
+    media: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
   },
   {
-    title: "Forest Path",
-    media: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&q=80"
+    title: "Ink Swirl",
+    media: "https://images.unsplash.com/photo-1549490349-8643362247b5?w=1920&q=80"
   },
   {
-    title: "Aurora Sky",
-    media: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?w=1920&q=80"
+    title: "Glass Geometry",
+    media: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=1920&q=80"
   }
 ];
 // Touch support variables
