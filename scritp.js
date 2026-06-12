@@ -182,7 +182,7 @@ const SLIDER_CONFIG = {
   // Core settings
   settings: {
     // Timing settings
-    transitionDuration: 2.8,
+    transitionDuration: 0.8,
     autoSlideSpeed: 5000,
     // Current state
     currentEffect: "glass",
